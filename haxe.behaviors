@@ -1,4 +1,4 @@
 [
  [:app :lt.objs.plugins/load-js "haxe_compiled.js"]
- [:haxe.hello :lt.plugins.haxe/on-close-destroy]
+ [:files :lt.objs.files/file-types {:name "Haxe" :exts [:hx] :mime "text/x-haxe" :tags [:editor.haxe]}]
  ]
